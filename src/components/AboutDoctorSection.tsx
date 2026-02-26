@@ -51,7 +51,7 @@ const AboutDoctorSection = () => {
               <img
                 src={doctorPhoto}
                 alt="Dr. Gustavo de Oliveira Mota – Urologista"
-                className="relative rounded-2xl shadow-elevated w-full object-cover max-h-[520px]"
+                className="relative rounded-2xl shadow-elevated w-full object-cover object-top max-h-[520px]"
               />
             </div>
           </motion.div>
