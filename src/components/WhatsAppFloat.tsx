@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 const WhatsAppFloat = () => {
   return (
     <motion.a
-      href="https://wa.me/5547999999999"
+      href="https://wa.me/5547999452698"
       target="_blank"
       rel="noopener noreferrer"
       initial={{ scale: 0 }}

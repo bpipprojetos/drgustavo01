@@ -51,7 +51,7 @@ const AuthoritySection = () => {
                 </div>
                 <div>
                   <p className="font-body font-semibold text-foreground">CRM-SC 18.530 | RQE 10.267</p>
-                  <p className="text-sm text-muted-foreground">Urologista Especialista</p>
+                  <p className="text-sm text-muted-foreground">Urologista Especialista – TiSBU</p>
                 </div>
               </div>
 
@@ -60,8 +60,8 @@ const AuthoritySection = () => {
                   <Award className="w-6 h-6 text-navy" />
                 </div>
                 <div>
-                  <p className="font-body font-semibold text-foreground">Especialista em HPB e Disfunções Miccionais</p>
-                  <p className="text-sm text-muted-foreground">Membro de Sociedades Médicas</p>
+                  <p className="font-body font-semibold text-foreground">Especialista em Disfunções Miccionais</p>
+                  <p className="text-sm text-muted-foreground">Membro da SBU, EAU, AUA e ICS</p>
                 </div>
               </div>
 
@@ -71,7 +71,7 @@ const AuthoritySection = () => {
                 </div>
                 <div>
                   <p className="font-body font-semibold text-foreground">Itajaí e Balneário Camboriú</p>
-                  <p className="text-sm text-muted-foreground">Atendimento Premium</p>
+                  <p className="text-sm text-muted-foreground">UROCenter SC – Atendimento Premium</p>
                 </div>
               </div>
             </div>
