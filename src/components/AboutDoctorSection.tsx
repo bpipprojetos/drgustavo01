@@ -94,6 +94,22 @@ const AboutDoctorSection = () => {
           </motion.div>
         </div>
 
+        {/* Section title */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5 }}
+          className="max-w-3xl mx-auto text-center mb-14"
+        >
+          <h2 className="text-2xl md:text-3xl font-display font-bold text-foreground mb-4">
+            Você merece saber quem cuida de você.
+          </h2>
+          <p className="text-muted-foreground font-body text-lg leading-relaxed">
+            Escolher um médico é uma decisão que impacta diretamente sua qualidade de vida. Conheça a formação e a trajetória de quem estará ao seu lado.
+          </p>
+        </motion.div>
+
         {/* Formations & Memberships */}
         <div className="grid md:grid-cols-2 gap-10 max-w-6xl mx-auto mb-20">
           <motion.div
