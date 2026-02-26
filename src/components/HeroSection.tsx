@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { MessageCircle } from "lucide-react";
-import doctorImg from "@/assets/doctor-hero.png";
+import doctorPhoto from "@/assets/doctor-photo.png";
 
 const HeroSection = () => {
   return (
@@ -39,7 +39,7 @@ const HeroSection = () => {
 
             <div className="flex flex-col sm:flex-row gap-4">
               <a
-                href="https://wa.me/5547999999999"
+                href="https://wa.me/5547999452698"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-3 bg-gold hover:bg-gold-dark text-navy-deep font-body font-semibold px-8 py-4 rounded-lg text-lg transition-all duration-300 hover:shadow-elevated"
@@ -64,7 +64,7 @@ const HeroSection = () => {
             <div className="relative">
               <div className="absolute -inset-4 bg-gradient-to-br from-gold/20 to-transparent rounded-2xl blur-2xl" />
               <img
-                src={doctorImg}
+                src={doctorPhoto}
                 alt="Dr. Gustavo Mota - Urologista especialista em HPB"
                 className="relative rounded-2xl shadow-elevated w-full max-w-lg object-cover"
               />
