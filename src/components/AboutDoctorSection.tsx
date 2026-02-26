@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { GraduationCap, Award, Briefcase, BookOpen, Globe } from "lucide-react";
-import doctorPhoto from "@/assets/doctor-photo.png";
+import doctorPhoto from "@/assets/doctor-about.png";
 import consultationImg from "@/assets/consultation.png";
 
 const formations = [

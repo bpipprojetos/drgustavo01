@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { MessageCircle } from "lucide-react";
-import doctorPhoto from "@/assets/doctor-photo.png";
+import doctorPhoto from "@/assets/doctor-hero-real.jpg";
 
 const HeroSection = () => {
   return (
