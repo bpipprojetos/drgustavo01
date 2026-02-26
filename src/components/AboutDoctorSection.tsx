@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { GraduationCap, Award, Briefcase, BookOpen, Globe } from "lucide-react";
 import doctorPhoto from "@/assets/doctor-about.png";
-import consultationImg from "@/assets/consultation.png";
+
 
 const formations = [
   "Medicina – Faculdade de Ciências Médicas de Minas Gerais, BH, MG",
@@ -143,47 +143,29 @@ const AboutDoctorSection = () => {
           </motion.div>
         </div>
 
-        {/* Activities + Consultation image */}
-        <div className="grid lg:grid-cols-2 gap-16 items-center max-w-6xl mx-auto mb-20">
-          <motion.div
-            initial={{ opacity: 0, x: -30 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6 }}
-            className="bg-card rounded-2xl p-8 shadow-card border border-border"
-          >
-            <div className="flex items-center gap-3 mb-6">
-              <div className="w-12 h-12 bg-navy/5 rounded-lg flex items-center justify-center">
-                <Briefcase className="w-6 h-6 text-navy" />
-              </div>
-              <h3 className="text-xl font-display font-bold text-foreground">Atividades Atuais</h3>
+        {/* Activities */}
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6 }}
+          className="max-w-6xl mx-auto mb-20 bg-card rounded-2xl p-8 shadow-card border border-border"
+        >
+          <div className="flex items-center gap-3 mb-6">
+            <div className="w-12 h-12 bg-navy/5 rounded-lg flex items-center justify-center">
+              <Briefcase className="w-6 h-6 text-navy" />
             </div>
-            <ul className="space-y-3">
-              {activities.map((item, i) => (
-                <li key={i} className="flex items-start gap-3">
-                  <span className="w-1.5 h-1.5 bg-gold rounded-full mt-2.5 flex-shrink-0" />
-                  <span className="text-muted-foreground font-body text-sm leading-relaxed">{item}</span>
-                </li>
-              ))}
-            </ul>
-          </motion.div>
-
-          <motion.div
-            initial={{ opacity: 0, x: 30 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6 }}
-          >
-            <div className="relative">
-              <div className="absolute -inset-3 bg-gradient-to-br from-navy/10 to-gold/10 rounded-2xl blur-xl" />
-              <img
-                src={consultationImg}
-                alt="Consulta médica com atendimento humanizado"
-                className="relative rounded-2xl shadow-elevated w-full object-cover max-h-[400px]"
-              />
-            </div>
-          </motion.div>
-        </div>
+            <h3 className="text-xl font-display font-bold text-foreground">Atividades Atuais</h3>
+          </div>
+          <ul className="space-y-3 columns-1 md:columns-2 gap-8">
+            {activities.map((item, i) => (
+              <li key={i} className="flex items-start gap-3 break-inside-avoid mb-3">
+                <span className="w-1.5 h-1.5 bg-gold rounded-full mt-2.5 flex-shrink-0" />
+                <span className="text-muted-foreground font-body text-sm leading-relaxed">{item}</span>
+              </li>
+            ))}
+          </ul>
+        </motion.div>
 
         {/* Legacy */}
         <motion.div
