@@ -66,7 +66,7 @@ const HeroSection = () => {
               <img
                 src={doctorPhoto}
                 alt="Dr. Gustavo Mota - Urologista especialista em HPB"
-                className="relative rounded-2xl shadow-elevated w-full max-w-lg object-cover"
+                className="relative rounded-2xl shadow-elevated w-full max-w-lg object-cover object-top"
               />
             </div>
           </motion.div>
