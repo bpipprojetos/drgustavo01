@@ -1,13 +1,6 @@
 {
+  "cleanUrls": true,
   "rewrites": [
-    {
-      "source": "/drgustavo01",
-      "destination": "/drgustavo01/index.html"
-    },
-    {
-      "source": "/drgustavo01/(.*)",
-      "destination": "/drgustavo01/index.html"
-    },
     {
       "source": "/(.*)",
       "destination": "/index.html"
