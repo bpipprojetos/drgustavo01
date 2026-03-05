@@ -22,3 +22,10 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+# Agent
+.agent/
+.gemini/
+*.log
+lint_output*.txt
+output.txt
+test_node.js
