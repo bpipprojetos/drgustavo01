@@ -40,7 +40,7 @@ const LifestyleSections = () => {
                 Muitos homens convivem com desconfortos que poderiam ser resolvidos. Acordar sem urgência, dormir sem interrupções e viver com liberdade — tudo isso está ao seu alcance.
               </p>
               <a
-                href="https://wa.me/5547999452698"
+                href="https://typebot.co/bpip-gustavo-uro-prostata"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-3 bg-gold hover:bg-gold-dark text-navy-deep font-body font-semibold px-8 py-4 rounded-lg text-base transition-all duration-300 hover:shadow-elevated"
@@ -76,7 +76,7 @@ const LifestyleSections = () => {
                 Cuidar da saúde urológica é um ato de inteligência. Homens que se antecipam vivem mais e melhor — com energia, confiança e tranquilidade.
               </p>
               <a
-                href="https://wa.me/5547999452698"
+                href="https://typebot.co/bpip-gustavo-uro-prostata"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-3 bg-gold hover:bg-gold-dark text-navy-deep font-body font-semibold px-8 py-4 rounded-lg text-base transition-all duration-300 hover:shadow-elevated"

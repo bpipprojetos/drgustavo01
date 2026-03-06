@@ -23,13 +23,13 @@ const CTASection = () => {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
             <a
-              href="https://wa.me/5547999452698"
+              href="https://typebot.co/bpip-gustavo-uro-prostata"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-3 bg-gold hover:bg-gold-dark text-navy-deep font-body font-bold px-10 py-5 rounded-xl text-lg transition-all duration-300 hover:shadow-elevated"
             >
               <MessageCircle className="w-6 h-6" />
-              Falar com a equipe no WhatsApp
+              Falar com o especialista agora
             </a>
           </div>
 

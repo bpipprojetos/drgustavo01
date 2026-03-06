@@ -7,7 +7,7 @@ const HeroSection = () => {
     <section className="relative min-h-screen bg-navy-deep overflow-hidden">
       {/* Background gradient overlay */}
       <div className="absolute inset-0 bg-gradient-to-br from-navy-deep via-navy to-navy-light opacity-90" />
-      
+
       <div className="relative z-10 container mx-auto px-4 py-20 lg:py-0 lg:min-h-screen flex items-center">
         <div className="grid lg:grid-cols-2 gap-12 items-center w-full">
           {/* Text Content */}
@@ -39,7 +39,7 @@ const HeroSection = () => {
 
             <div className="flex flex-col sm:flex-row gap-4">
               <a
-                href="https://wa.me/5547999452698"
+                href="https://typebot.co/bpip-gustavo-uro-prostata"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-3 bg-gold hover:bg-gold-dark text-navy-deep font-body font-semibold px-8 py-4 rounded-lg text-lg transition-all duration-300 hover:shadow-elevated"
