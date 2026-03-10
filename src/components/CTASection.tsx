@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { MessageCircle, Phone, MapPin } from "lucide-react";
-import clinicImg from "@/assets/clinic-interior.png";
+import clinicImg from "@/assets/UroCenter.jpg";
 
 const CTASection = () => {
   return (
@@ -41,12 +41,12 @@ const CTASection = () => {
             transition={{ duration: 0.5 }}
             className="mb-16"
           >
-            <div className="relative max-w-3xl mx-auto">
+            <div className="relative max-w-5xl mx-auto">
               <div className="absolute -inset-3 bg-gradient-to-br from-gold/10 to-navy/10 rounded-2xl blur-xl" />
               <img
                 src={clinicImg}
                 alt="UROCenter SC – Ambiente moderno e acolhedor"
-                className="relative rounded-2xl shadow-elevated w-full object-cover max-h-[350px]"
+                className="relative rounded-2xl shadow-elevated w-full object-cover max-h-[480px] object-top"
               />
             </div>
           </motion.div>
